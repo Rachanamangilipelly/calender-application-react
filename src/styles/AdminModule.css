@@ -1,0 +1,36 @@
+.admin-module .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .admin-module .form-group input,
+  .admin-module .form-group textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .admin-module .form-group button {
+    padding: 10px 15px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .admin-module .form-group button:hover {
+    background: #0056b3;
+  }
+  
+  .admin-module .company-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .admin-module .company-list li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ddd;
+  }
